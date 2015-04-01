@@ -54,6 +54,8 @@ $border: 1px solid $border-color !default;
 $input-border-color: $neutral-40 !default;
 $input-background-color: hsl(0, 0%, 100%) !default;
 $input-focus-outline-color: hsl(210, 90%, 60%) !default;
+$input-horizontal-padding: $unit;
+$input-vertical-padding: ($unit * 1.5);
 
 
 // Layer (z-index)
