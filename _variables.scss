@@ -12,12 +12,8 @@
 // Layout
 // ---
 
-// Basic unit for spacing and alignment of elements. Suggested value: 6 to 12px.
-// Apply in whole or half multiples.
-$unit: 10px !default;
-
-// Standard tap-target size
-$tap-size: 45px !default;
+$unit: 10px !default; // Basic unit for spacing and alignment
+$tap-size: 45px !default; // Standard tap-target size.
 
 
 // Typography
@@ -45,17 +41,8 @@ $error-color: #c0392b !default;
 // Appearance
 // ---
 
-$input-horizontal-padding: $unit;
-$input-vertical-padding: $unit;
 $border-color: $neutral-40 !default;
 $border-radius: 0 !default;
-// $input-background-color: #fff !default;
 
-
-// Layer (z-index)
-// ---
-
-// $layer-10: 1 !default;
-// $layer-20: 10 !default;
-// $layer-30: 100 !default;
-// $layer-40: 1000 !default;
+$horizontal-input-padding: $unit !default;
+$vertical-input-padding: $unit !default;
