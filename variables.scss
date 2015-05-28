@@ -8,6 +8,11 @@
 //   should not map to actual values. If really necessary, additional values can
 //   be added in between, e.g. $neutral-15 between 10 and 20.
 
+// Paths
+// ---
+
+$asset-root: '../assets' !default; // Path to the built assets
+
 
 // Layout
 // ---
