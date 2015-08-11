@@ -19,8 +19,7 @@ $asset-root: '../assets' !default; // Path to the built assets
 // ---
 
 $unit: 10px !default; // Basic unit for spacing and alignment
-$tap-size: 45px !default; // Standard tap-target size.
-$input-visible-height:25px;
+$tap-size: 45px !default; // Standard tap-target size
 
 
 // Typography
@@ -51,5 +50,6 @@ $error-color: #c0392b !default;
 $border-color: $neutral-40 !default;
 $border-radius: 0 !default;
 
+$input-height: 40px !default; // Visual height of buttons/textinputs/etc
 $horizontal-input-padding: $unit !default;
 $vertical-input-padding: $unit !default;
